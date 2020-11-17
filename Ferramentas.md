@@ -1,62 +1,24 @@
-Untitled
+Ferramentas para Big Data
 ================
-
-## GitHub Documents
-
-This is an R Markdown format used for publishing markdown documents to
-GitHub. When you click the **Knit** button all R code chunks are run and
-a markdown file (.md) suitable for publishing to GitHub is generated.
-
-## Including Code
-
-You can include R code in the document as follows:
-
-``` r
-summary(cars)
-```
-
-    ##      speed           dist       
-    ##  Min.   : 4.0   Min.   :  2.00  
-    ##  1st Qu.:12.0   1st Qu.: 26.00  
-    ##  Median :15.0   Median : 36.00  
-    ##  Mean   :15.4   Mean   : 42.98  
-    ##  3rd Qu.:19.0   3rd Qu.: 56.00  
-    ##  Max.   :25.0   Max.   :120.00
-
-## Including Plots
-
-You can also embed plots, for example:
-
-![](Ferramentas_files/figure-gfm/pressure-1.png)<!-- -->
-
-Note that the `echo = FALSE` parameter was added to the code chunk to
-prevent printing of the R code that generated the plot.
 
 <div style="text-align: left">
 
-<img src="https://professor.ufrgs.br/tsprass/files/ferramentas-01_0.jpg" width="200" />
-
-<h1>
-
-Ferramentas para Big Data
-
-</h1>
-
-Por Alisson Neimaier e Taiane Schaedler Prass
+<img src="Ferramentas_files/ferramentas-01.jpg" width="300"/> Por
+Alisson Neimaier e Taiane Schaedler Prass
 
 </div>
 
 ## **Apache Hadoop**
 
-![Hadoop Logo](http://professor.ufrgs.br/tsprass/files/hadoop-logo.jpg)
-Haddop é uma plataforma de software em Java para computação distribuída
-e processamento de grandes massas de dados. O Hadoop não é uma
-ferramenta única, mas sim uma coleção de subprojetos relacionados para
-computação distribuída, todos eles hospedados pela *Apache Software
-Foundation* [(http://hadoop.apache.org/)](http://hadoop.apache.org/),
-sendo que os mais conhecidos são o MapReduce e o sistema de arquivos
-distribuídos (HDFS).<span style="color: #0000ff;">Framework open source
-para armazenamento e processamento de BIG DATA.</span>
+![Hadoop Logo](Ferramentas_files/hadoop-logo.jpg) Haddop é uma
+plataforma de software em Java para computação distribuída e
+processamento de grandes massas de dados. O Hadoop não é uma ferramenta
+única, mas sim uma coleção de subprojetos relacionados para computação
+distribuída, todos eles hospedados pela *Apache Software Foundation*
+[(http://hadoop.apache.org/)](http://hadoop.apache.org/), sendo que os
+mais conhecidos são o MapReduce e o sistema de arquivos distribuídos
+(HDFS).<span style="color: #0000ff;">Framework open source para
+armazenamento e processamento de BIG DATA.</span>
 <span style="color: #FF3346;">(Esse texto prece repetitivo)</span>
 Sistema de armazenamento compartilhado para processamento de grandes
 volumes de dados através de clusters de computadores (escalabilidade
