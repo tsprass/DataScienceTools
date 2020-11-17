@@ -10,6 +10,8 @@ Este projeto de pesquisa engloba aspectos de cunho teórico, computacional e de 
 
 Além dos já citados acima, outros programas e linguagens de programação voltados para analise e visualização de grandes volumes de dados serão identificados e estudados no decorrer do projeto.
 
+## Suporte Financeiro
+Edital 001/2019 do Programa Institucional de Apoio à Pesquisa de Docentes Recém-Contratados pela UFRGS.
 
 ## Colaboradores:
 
