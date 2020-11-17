@@ -25,4 +25,4 @@ Guilherme Pumi - DEST/PPGEst - IME - UFRGS
 
 ## Resumos
 
-* [Ferramentas para Big Data]() 
+* [Ferramentas para Big Data](https://tsprass.github.io/DataScienceTools/Ferramentas) 
