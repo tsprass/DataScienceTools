@@ -1,8 +1,8 @@
 # Projeto: Ferramentas para Data Science e Big Data
 
-Taiane Schaedler Prass
-Departamento de Estatística
-Programa de Pós Graduação em Estatística - IME - UFRGS
+Taiane Schaedler Prass<br>
+Departamento de Estatística<br>
+Programa de Pós Graduação em Estatística - IME - UFRGS<br>
 http://professor.ufrgs.br/tsprass/
 
 ## Resumo
