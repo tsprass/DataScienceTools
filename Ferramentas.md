@@ -13,13 +13,13 @@ Alisson Neimaier e Taiane Schaedler Prass
 
 É um sistema de armazenamento compartilhado para processamento de grandes volumes de dados através de clusters de computadores (escalabilidade horizontal). O ecossistema Hadoop é composto por 3 módulos principais:
 
-  - **Hadoop Distributed File System** (HDFS):     <span style="color: #0000ff;">Distribui e lida com os     arquivos</span> entre os clusters.
+  - **Hadoop Distributed File System** (HDFS):  Responsável pelo armazenamento distribuído.
 
-  - **Hadoop Yarn**: Administra os recursos a serem utilizados     <span style="color: #0000ff;">(?).</span> 
+  - **Hadoop Yarn**: Gerencia os recursos alocados nos clusters, minimizando a sobreposição de uso de recursos de CPU e Memória que são consumidos por outros frameworks presentes no ecossistema hadoop.
   
-  - **Hadoop MapReduce**: <span style="color: #0000ff;">É um processo    que transforma bancos de dados, transformando-os</span>. É executado     em paralelo nos clusters.
+  - **Hadoop MapReduce**: Modelo de programação para processamento em larga escala. Duas operações são executadas (map e reduce). A função map processa uma série de entradas na forma de chave/valor e gera para cada uma dessas zero ou mais saídas no formato chave/valor. A função de reduce realiza um agrupamento do foi gerado pela função de map podendo gerar um conjunto menor de dados.
 
-Algumas ferramentas complementares são: Sqoop, Zookeeper, Oozie, Pig, Hive, Mahout, HBase, Flume, etc.
+Algumas ferramentas complementares são: Sqoop, Zookeeper, Oozie, Pig, Hive, Mahout, HBase, Flume, etc. Uma descrição dessas ferramentas pode ser encontrada em [https://rogeraoaraujo.com.br/2020/11/12/big-data-ferramentas-e-tecnologias-parte-2/](https://rogeraoaraujo.com.br/2020/11/12/big-data-ferramentas-e-tecnologias-parte-2/)
 
 MapReduce é um modelo de programação que permite o processamento de
 dados massivos em um algoritmo paralelo e distribuído que possui duas
