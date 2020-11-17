@@ -19,47 +19,23 @@ Alisson Neimaier e Taiane Schaedler Prass
   
   - **Hadoop MapReduce**: Modelo de programação para processamento em larga escala. Duas operações são executadas (map e reduce). A função map processa uma série de entradas na forma de chave/valor e gera para cada uma dessas zero ou mais saídas no formato chave/valor. A função de reduce realiza um agrupamento do foi gerado pela função de map podendo gerar um conjunto menor de dados.
 
-Algumas ferramentas complementares são: Sqoop, Zookeeper, Oozie, Pig, Hive, Mahout, HBase, Flume, etc. Uma descrição dessas ferramentas pode ser encontrada em [https://rogeraoaraujo.com.br/2020/11/12/big-data-ferramentas-e-tecnologias-parte-2/](https://rogeraoaraujo.com.br/2020/11/12/big-data-ferramentas-e-tecnologias-parte-2/)
+MapReduce é um modelo de programação que permite o processamento de dados massivos em um algoritmo paralelo e distribuído que possui duas fases de processamento, Map e Reduce, ambas gerenciadas internamente pelo Hadoop sem intervenção do programador. O HDFS é um sistema de arquivos criado para armazenar arquivos muito grandes de forma
+distribuída, escalável e tolerante a falhas. 
 
-MapReduce é um modelo de programação que permite o processamento de
-dados massivos em um algoritmo paralelo e distribuído que possui duas
-fases de processamento, Map e Reduce, ambas gerenciadas internamente
-pelo Hadoop sem intervenção do programador. O HDFS é um sistema de
-arquivos criado para armazenar arquivos muito grandes de forma
-distribuída, escalável e tolerante a falhas.
+Além do MapReduce e do HDFS existem outros subprojetos do Hadoop que oferecem uma série de serviços complementares ou que adicionam abstrações de maior nível. Dentre eles destacam-se:
 
-Além do MapReduce e do HDFS existem outros subprojetos do Hadoop que
-oferecem uma série de serviços complementares ou que adicionam
-abstrações de maior nível. Dentre eles destacam-se:
+  - **Avro**: um sistema de serialização de dados que fornece RPCs (*Remote Procedure Calls*) eficientes e independentes de linguagem,     armazenamento persistente de dados, estruturas de dados ricas, entre outros recursos. É muito utilizado com linguagens de programação dinâmicas.
 
-  - **Avro**: um sistema de serialização de dados que fornece RPCs
-    (*Remote Procedure Calls*) eficientes e independentes de linguagem,
-    armazenamento persistente de dados, estruturas de dados ricas, entre
-    outros recursos. É muito utilizado com linguagens de programação
-    dinâmicas.
+  - **Pig**: uma plataforma para grandes conjuntos de dados que possui uma linguagem de programação de alto nível para realizar a análise desses dados. Possui a infraestrutura necessária para avaliar os programas criados, como um compilador especial que transforma as aplicações desenvolvidas nessa linguagem em uma sequência de programas MapReduce.
 
-  - **Pig**: uma plataforma para grandes conjuntos de dados que possui
-    uma linguagem de programação de alto nível para realizar a análise
-    desses dados. Possui a infraestrutura necessária para avaliar os
-    programas criados, como um compilador especial que transforma as
-    aplicações desenvolvidas nessa linguagem em uma sequência de
-    programas MapReduce.
+  - **HBase**: uma base de dados distribuída, criada para armazenar tabelas muito grandes (milhões de colunas e bilhões de linhas). Trata-se de um modelo de armazenamento orientado a colunas altamente escalável, inserido no contexto de tecnologias NoSQL (*Not Only SQL*).
 
-  - **HBase**: uma base de dados distribuída, criada para armazenar
-    tabelas muito grandes (milhões de colunas e bilhões de linhas).
-    Trata-se de um modelo de armazenamento orientado a colunas altamente
-    escalável, inserido no contexto de tecnologias NoSQL (*Not Only
-    SQL*).
+  - **ZooKeeper**: um serviço centralizado para coordenação de aplicações distribuídas. Mantém informações de configuração das aplicações distribuídas, além de fornecer a sincronização das mesmas.
 
-  - **ZooKeeper**: um serviço centralizado para coordenação de
-    aplicações distribuídas. Mantém informações de configuração das
-    aplicações distribuídas, além de fornecer a sincronização das
-    mesmas.
+  - **Hive**: uma espécie de Data Warehouse distribuído, que facilita a utilização de grandes conjuntos de dados em ambientes de armazenamento paralelo. Provê uma linguagem baseada em SQL, chamada HiveQL, que facilita a estruturação e pesquisa dos dados.
+    
+Algumas ferramentas complementares são: Sqoop, Oozie, Mahout, Flume, etc. Uma descrição dessas ferramentas pode ser encontrada em [https://rogeraoaraujo.com.br/2020/11/12/big-data-ferramentas-e-tecnologias-parte-2/](https://rogeraoaraujo.com.br/2020/11/12/big-data-ferramentas-e-tecnologias-parte-2/)    
 
-  - **Hive**: uma espécie de Data Warehouse distribuído, que facilita a
-    utilização de grandes conjuntos de dados em ambientes de
-    armazenamento paralelo. Provê uma linguagem baseada em SQL, chamada
-    HiveQL, que facilita a estruturação e pesquisa dos dados.
 
 ## **Apache Spark**
 
