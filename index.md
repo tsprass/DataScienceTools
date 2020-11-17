@@ -1,8 +1,22 @@
-## Welcome to GitHub Pages
+# Projeto: Ferramentas para Data Science e Big Data
 
-You can use the [editor on GitHub](https://github.com/tsprass/DataScienceTools/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+## Resumo
+Este projeto de pesquisa engloba aspectos de cunho teórico, computacional e de aplicação prática. Problemas envolvendo programação e otimização de rotinas computacionais serão constantemente abordadas. Estudaremos também problemas envolvendo resumo e visualização de grande volumes de dados. Voltamos nossa atenção não só à programação em R, que é uma linguagem mais acessível ao público em geral, mas também trataremos de programação em FORTRAN, que é uma linguagem mais robusta, e do ambiente Hadoop que vem ganhando cada vez mais espaço no mercado. 
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Além dos já citados acima, outros programas e linguagens de programação voltados para analise e visualização de grandes volumes de dados serão identificados e estudados no decorrer do projeto.
+
+
+## Colaboradores:
+
+Guilherme Pumi - DEST/PPGEst - IME - UFRGS
+
+
+## Alunos envolvidos no Projeto
+
+* Alisson Silva Neimaier - DEST - UFRGS
+* Humberto de Lima - DMPA - UFRGS
+* Amanda Santos - DMPA - UFRGS
+
 
 ### Markdown
 
