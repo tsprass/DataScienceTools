@@ -22,3 +22,7 @@ Guilherme Pumi - DEST/PPGEst - IME - UFRGS
 * Humberto de Lima - DMPA - UFRGS
 * Amanda Santos - DMPA - UFRGS
 
+
+## Resumos
+
+* [Ferramentas para Big Data](https://tsprass.github.io/DataScienceTools/Ferramentas)
