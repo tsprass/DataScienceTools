@@ -7,7 +7,7 @@ Ferramentas para Big Data
 Alisson Neimaier e Taiane Schaedler Prass
 
 </div>
-
+oi 
 ## **Apache Hadoop**
 
 ![Hadoop Logo](Ferramentas_files/hadoop-logo.jpg) Haddop é uma
