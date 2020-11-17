@@ -1,235 +1,158 @@
-<figure>
-<img src="https://professor.ufrgs.br/tsprass/files/ferramentas-01_0.jpg" alt="Nuvem de palavras" style="float:left;width:30%">
-</figure>
-<p>&nbsp;</p>
-<p></p>
-<p>Por Alisson Neimaier e Taiane Schaedler Prass</p>
-<p></p>
+<figure>![Nuvem de palavras](https://professor.ufrgs.br/tsprass/files/ferramentas-01_0.jpg)</figure>
 
-<span style="color: #0000ff;"> Revisar o texto em azul </span>
+Por Alisson Neimaier e Taiane Schaedler Prass
 
-<h2><strong>Apache Hadoop</strong></h2>
-<p></p>
+<span style="color: #0000ff;">Revisar o texto em azul</span>
 
+## **Apache Hadoop**
 
-<img src="http://professor.ufrgs.br/tsprass/files/hadoop-logo.jpg" alt="Hadoop Logo" style="float:left;width:30%">
-</p>Haddop é uma plataforma de software em Java para computação distribuída e processamento de grandes massas de dados.  O Hadoop não é uma ferramenta única, mas sim uma coleção de subprojetos relacionados para computação distribuída, todos eles hospedados pela <em>Apache Software Foundation</em> <a href ="http://hadoop.apache.org/">(http://hadoop.apache.org/)</a>, sendo que os mais conhecidos são o MapReduce  e o sistema de arquivos distribuídos (HDFS).  </p>
+![Hadoop Logo](http://professor.ufrgs.br/tsprass/files/hadoop-logo.jpg)Haddop é uma plataforma de software em Java para computação distribuída e processamento de grandes massas de dados. O Hadoop não é uma ferramenta única, mas sim uma coleção de subprojetos relacionados para computação distribuída, todos eles hospedados pela _Apache Software Foundation_ [(http://hadoop.apache.org/)](http://hadoop.apache.org/), sendo que os mais conhecidos são o MapReduce e o sistema de arquivos distribuídos (HDFS).<span style="color: #0000ff;">Framework open source para armazenamento e processamento de BIG DATA.</span> <span style="color: #FF3346;">(Esse texto prece repetitivo)</span> Sistema de armazenamento compartilhado para processamento de grandes volumes de dados através de clusters de computadores (escalabilidade horizontal).
 
-<span style="color: #0000ff;"> Framework open source para armazenamento e processamento de BIG DATA.</span>	<span style="color: #FF3346;"> (Esse texto prece repetitivo) </span> Sistema de armazenamento compartilhado para processamento de grandes volumes de dados através de clusters de computadores (escalabilidade horizontal).</p>
+O ecossistema Hadoop é composto por 3 módulos principais:
 
-<p>O ecossistema Hadoop é composto por 3 módulos principais:</p>
+*   **Hadoop Distributed File System** (HDFS): <span style="color: #0000ff;">Distribui e lida com os arquivos</span> entre os clusters.
 
-<ul>
-<li><strong>Hadoop Distributed File System</strong> (HDFS): <span style="color: #0000ff;">Distribui e lida com os arquivos</span> entre os clusters.</li><br>
+*   **Hadoop Yarn**: Administra os recursos a serem utilizados <span style="color: #0000ff;">(?).</span>
 
-<li><strong>Hadoop Yarn</strong>: Administra os recursos a serem utilizados<span style="color: #0000ff;"> (?).</span></li><br>
+*   **Hadoop MapReduce**: <span style="color: #0000ff;">É um processo que transforma bancos de dados, transformando-os</span>. É executado em paralelo nos clusters.
 
-<li><strong>Hadoop MapReduce</strong>: <span style="color: #0000ff;">É um processo que transforma bancos de dados, transformando-os</span>. É executado em paralelo nos clusters.</li>
-</ul>
+Algumas ferramentas complementares são: Sqoop, Zookeeper, Oozie, Pig, Hive, Mahout, HBase, Flume, etc.
 
-<p>Algumas ferramentas complementares são: Sqoop, Zookeeper, Oozie, Pig, Hive, Mahout, HBase, Flume, etc.</p>
+MapReduce é um modelo de programação que permite o processamento de dados massivos em um algoritmo paralelo e distribuído que possui duas fases de processamento, Map e Reduce, ambas gerenciadas internamente pelo Hadoop sem intervenção do programador. O HDFS é um sistema de arquivos criado para armazenar arquivos muito grandes de forma distribuída, escalável e tolerante a falhas.
 
+Além do MapReduce e do HDFS existem outros subprojetos do Hadoop que oferecem uma série de serviços complementares ou que adicionam abstrações de maior nível. Dentre eles destacam-se:
 
-<p>MapReduce é um modelo de programação que permite o processamento de dados massivos em um algoritmo paralelo e distribuído que possui duas fases de processamento,  Map e Reduce, ambas gerenciadas internamente pelo Hadoop sem intervenção do programador.  O HDFS é um sistema de arquivos criado para armazenar arquivos muito grandes de forma distribuída, escalável e tolerante a falhas. </p>
+*   **Avro**: um sistema de serialização de dados que fornece RPCs (_Remote Procedure Calls_) eficientes e independentes de linguagem, armazenamento persistente de dados, estruturas de dados ricas, entre outros recursos. É muito utilizado com linguagens de programação dinâmicas.
 
-Além do  MapReduce  e do HDFS existem outros subprojetos do Hadoop que oferecem uma série de serviços complementares ou que adicionam abstrações de maior nível. Dentre eles destacam-se:
+*   **Pig**: uma plataforma para grandes conjuntos de dados que possui uma linguagem de programação de alto nível para realizar a análise desses dados. Possui a infraestrutura necessária para avaliar os programas criados, como um compilador especial que transforma as aplicações desenvolvidas nessa linguagem em uma sequência de programas MapReduce.
 
-<ul>
-<li> <strong>Avro</strong>: um sistema de serialização de dados que fornece RPCs (<em>Remote Procedure Calls</em>) eficientes e independentes de linguagem, armazenamento persistente de dados, estruturas de dados ricas, entre outros recursos. É  muito utilizado com linguagens de programação dinâmicas.</li><br>
+*   **HBase**: uma base de dados distribuída, criada para armazenar tabelas muito grandes (milhões de colunas e bilhões de linhas). Trata-se de um modelo de armazenamento orientado a colunas altamente escalável, inserido no contexto de tecnologias NoSQL (_Not Only SQL_).
 
-<li> <strong>Pig</strong>: uma plataforma para grandes conjuntos de dados que possui uma linguagem de programação de alto nível para realizar a análise desses dados. Possui a infraestrutura necessária para avaliar os programas criados, como um compilador especial que transforma as aplicações desenvolvidas nessa linguagem em uma sequência de programas MapReduce.</li><br>
+*   **ZooKeeper**: um serviço centralizado para coordenação de aplicações distribuídas. Mantém informações de configuração das aplicações distribuídas, além de fornecer a sincronização das mesmas.
 
-<li> <strong>HBase</strong>: uma base de dados distribuída, criada para armazenar tabelas muito grandes (milhões de colunas e bilhões de linhas).  Trata-se de um modelo de armazenamento orientado a colunas altamente escalável, inserido no contexto de tecnologias NoSQL (<em>Not Only SQL</em>).</li><br>
+*   **Hive**: uma espécie de Data Warehouse distribuído, que facilita a utilização de grandes conjuntos de dados em ambientes de armazenamento paralelo. Provê uma linguagem baseada em SQL, chamada HiveQL, que facilita a estruturação e pesquisa dos dados.
 
-<li> <strong>ZooKeeper</strong>: um serviço centralizado para coordenação de aplicações distribuídas. Mantém informações de configuração das aplicações distribuídas, além de fornecer a sincronização das mesmas.</li><br>
+## **Apache Spark**
 
-<li> <strong>Hive</strong>: uma espécie de Data Warehouse distribuído, que facilita a utilização de grandes conjuntos de dados  em ambientes de armazenamento paralelo. Provê uma linguagem baseada em SQL, chamada HiveQL, que facilita a estruturação e pesquisa dos dados.</li>
-</ul>
+É um sistema de cluster para processamento de dados em larga escala. É possível fazer análise em bancos de dados “quase” instantaneamente (Stream Processing) ou em dados que já foram coletados a mais tempo (Batch Processing).
 
+A forma como o Spark Streaming funciona é dividindo o streaming em lotes (chamados micro lotes) em um intervalo predefinido (N segundos) e, em seguida, trata cada lote de dados como arquivosResilient Distributed Datasets (RDDs).
 
-<p></p>
-<h2><strong>Apache Spark</strong></h2>
-<p></p>
+Sua base é o Hadoop HDFS, mas pode ser usado com Cassandra, HBase e MongoDB, também com as linguagens R, Python e Scala.
 
-<p>É um sistema de cluster para processamento de dados em larga escala. É possível fazer análise em bancos de dados “quase” instantaneamente (Stream Processing) ou em dados que já foram coletados a mais tempo (Batch Processing).</p>
+Sua maior funcionalidade seria substituir o MapReduce, pois é 100x mais rápido em memória e 10x em disco.
 
-<p>A forma como o Spark Streaming funciona é dividindo o streaming em lotes (chamados micro lotes) em um intervalo predefinido (N segundos) e, em seguida, trata cada lote de dados como arquivosResilient Distributed Datasets (RDDs).</p>
+É possível desenvolver API’s (Interface de Programação de Aplicativos) em Java, Scala, Python e R.
 
-<p>Sua base é o Hadoop HDFS, mas pode ser usado com Cassandra, HBase e MongoDB, também com as linguagens R, Python e Scala.</p>
+Integrado ao SQL para manipulação de dados, tem uma biblioteca de algoritmos de machine learning (MLlib) e uma de gráficos (GraphX).
 
-<p>Sua maior funcionalidade seria substituir o MapReduce, pois é 100x mais rápido em memória e 10x em disco.</p>
+## **Microsoft HDInsight**
 
-<p>É possível desenvolver API’s (Interface de Programação de Aplicativos) em Java, Scala, Python e R.</p>
+É um serviço do Hadoop e Spark na nuvem. Uma plataforma em que é possível <span style="color: #0000ff;">lidar</span> com os dados utilizando diversas aplicações de forma integrada.
 
-<p>Integrado ao SQL para manipulação de dados, tem uma biblioteca de algoritmos de machine learning (MLlib) e uma de gráficos (GraphX).</p>
+## **MongoDB***
 
+Banco de dados open source. NoSQL database. Armazena documentos num formato parecido com json.
 
-<p></p>
-<h2><strong>Microsoft HDInsight</strong></h2>
-<p></p>
+## **Plotly***
 
-<p>É um serviço do Hadoop e Spark na nuvem. Uma plataforma em que é possível <span style="color: #0000ff;">lidar</span> com os dados utilizando diversas aplicações de forma integrada.</p>
+<span style="color: #0000ff;">FAZ UNS GRÁFICO BONITO.</span>
 
+## **Samoa**
 
-<p></p>
-<h2><strong>MongoDB*</strong></h2>
-<p></p>
+Conjunto de algoritmos para data mining e machine learning em “tempo real”. É possível desenvolver outros algoritmos. Roda em Apache Storm, S4, Samza e Flink.
 
-<p>Banco de dados open source. NoSQL database. Armazena documentos num formato parecido com json.</p>
+## **Lumify (Pago)**
 
-<p></p>
-<h2><strong>Plotly*</strong></h2>
-<p></p>
+Feito para visualização de dados em 2D ou 3D, mais baseado em dados de texto, imagens e vídeos.
 
-<p><span style="color: #0000ff;">FAZ UNS GRÁFICO BONITO.</span></p>
+[https://www.youtube.com/watch?v=Uf9-YhnwvNY](https://www.youtube.com/watch?v=Uf9-YhnwvNY)
 
-<p></p>
-<h2><strong>Samoa</strong></h2>
-<p></p>
+## **Machine Learning Libraries**
 
-<p>Conjunto de algoritmos para data mining e machine learning em “tempo real”. É possível desenvolver outros algoritmos. Roda em Apache Storm, S4, Samza e Flink.</p>
+Spark (MLib): [https://spark.apache.org/docs/latest/ml-guide.html](https://spark.apache.org/docs/latest/ml-guide.html)
 
-<p></p>
-<h2><strong>Lumify (Pago)</strong></h2>
-<p></p>
+Flink (FlinkML): parece ter sido descontinuada(?)
 
-<p>Feito para visualização de dados em 2D ou 3D, mais baseado em dados de texto, imagens e vídeos.</p>
+Samoa: https://samoa.incubator.apache.org/documentation/Home.html
 
-<p><a href="https://www.youtube.com/watch?v=Uf9-YhnwvNY">https://www.youtube.com/watch?v=Uf9-YhnwvNY</a></p>
+https://data-flair.training/blogs/hadoop-vs-mongodb/ -&gt; Comparação MongoDB vs Hadoop
 
-<p></p>
-<h2><strong>Machine Learning Libraries</strong></h2>
-<p></p>
+[https://i2.wp.com/opensourceforu.com/wp-content/uploads/2018/03/Table-1-Comparison-of-teh-best-Big-Data-frameworks-2.jpg?ssl=1](https://i2.wp.com/opensourceforu.com/wp-content/uploads/2018/03/Table-1-Comparison-of-teh-best-Big-Data-frameworks-2.jpg?ssl=1) -&gt; Tabela comparative dos Frameworks Apache (Hadoop, Spark, etc.)
 
+[https://www.researchgate.net/publication/329239211_Big_Data_Analytics_Technologies_and_Platforms_a_brief_review](https://www.researchgate.net/publication/329239211_Big_Data_Analytics_Technologies_and_Platforms_a_brief_review) -&gt; Análise tecnologias de big data UFCE
 
-<p>Spark (MLib): <a href="https://spark.apache.org/docs/latest/ml-guide.html">https://spark.apache.org/docs/latest/ml-guide.html</a></p>
+## **Google Analytics**
 
-<p>Flink (FlinkML): parece ter sido descontinuada(?)</p>
+Ferramenta “gratuita” do google que analisa as informações sobre os visitantes do seu site.
 
-<p>Samoa: https://samoa.incubator.apache.org/documentation/Home.html</p>
+<span style="color: #FF3346;">Porque gratuita está entre aspas?</span>
 
-<p>https://data-flair.training/blogs/hadoop-vs-mongodb/ -&amp;gt; Comparação MongoDB vs Hadoop</p>
-<p><a href="https://i2.wp.com/opensourceforu.com/wp-content/uploads/2018/03/Table-1-Comparison-of-teh-best-Big-Data-frameworks-2.jpg?ssl=1">https://i2.wp.com/opensourceforu.com/wp-content/uploads/2018/03/Table-1-Comparison-of-teh-best-Big-Data-frameworks-2.jpg?ssl=1</a> -&amp;gt; Tabela comparative dos Frameworks Apache (Hadoop, Spark, etc.)</p>
+## **Sisense (pago)**
 
-<p><a href="https://www.researchgate.net/publication/329239211_Big_Data_Analytics_Technologies_and_Platforms_a_brief_review">https://www.researchgate.net/publication/329239211_Big_Data_Analytics_Technologies_and_Platforms_a_brief_review</a> -&amp;gt; Análise tecnologias de big data UFCE</p>
+Ferramenta para visualização de dados de uma organização.
 
+*   Pega dados de diversas fontes, Facebook, Google, etc.
+*   Bot que responde a perguntas em inglês para facilitar o acesso. Ex: “Qual o nosso lucro mensal com clientes na China?”.
+*   Ferramenta de ML que detecta anomalias nos dados (?)
 
-<p></p>
-<h2><strong>Google Analytics</strong></h2>
-<p></p>
+## **Looker (pago)**
 
+Ferramenta para visualização de dados de uma organização.
 
-<p>Ferramenta “gratuita” do google que analisa as informações sobre os visitantes do seu site.</p>
-<span style="color: #FF3346;"> Porque gratuita está entre aspas? </span>
+*   Pega dados de diversas fontes, Facebook, Google, etc.
+*   Pode ser usada com R e Python
+*   Ferramentas como agendamento para analisar os dados e manda-los por email em formatos especificas e datas específicas para ajudar no controle das empresas.
 
+## **Periscope (pago)**
 
-<p></p>
-<h2><strong>Sisense (pago)</strong></h2>
-<p></p>
+Ferramenta para visualização de dados de uma organização.
 
-<p>Ferramenta para visualização de dados de uma organização.</p>
+*   Programável em SQL, com ferramentas para facilitar a programação (autocompletar palavras, sugestões, etc.)
+*   Visualização simples dos dados, com ferramentas para enviar relatórios e agendar análise de dados.
+*   Os dados são analisados em clusters oferecidos pelo software.
 
-<ul>
-<li> Pega dados de diversas fontes, Facebook, Google, etc. </li>
+## **Zoho Analytics (pago)**
 
-<li> Bot que responde a perguntas em inglês para facilitar o acesso. Ex: “Qual o nosso lucro mensal com clientes na China?”.</li>
+“O Zoho Analytics (anteriormente, Zoho Reports) é um software de BI e análise de dados que permite que você crie relatórios e painéis de dados atraentes e informativos em minutos.”
 
-<li> Ferramenta de ML que detecta anomalias nos dados (?)</li>
-</ul>
+## **Yellowfinbi (pago)**
 
-<p></p>
-<h2><strong>Looker (pago)</strong></h2>
-<p></p>
+A strategic, enterprise suite of BI and analytics products that change the way you discover and share insights so you can make the best decisions and act on changes in your data, faster.
 
-<p>Ferramenta para visualização de dados de uma organização.</p>
+Diferenciais: Pode-se incluir inteligência artificial nas análises
 
-<ul>
-<li> Pega dados de diversas fontes, Facebook, Google, etc. </li>
+## **Domo (pago)**
 
-<li> Pode ser usada com R e Python</li>
+Ferramenta para visualização de dados de uma organização.
 
-<li> Ferramentas como agendamento para analisar os dados e manda-los por email em formatos especificas e datas específicas para ajudar no controle das empresas.</li>
-</ul>
+Pega dados de diversas fontes, Facebook, Google, etc.
 
+## **IBM**
 
-<p></p>
-<h2><strong>Periscope (pago)</strong></h2>
-<p></p>
+*   **IBM Analytics:** Visualização de dados para uma organização
+*   **IBM Cognos:** Visualização de dados para uma organização
+*   **IBM Watson:** IA que “analisa os dados pra ti” a partir de perguntas em inglês.
 
-<p>Ferramenta para visualização de dados de uma organização.</p>
+## **Matlab**
 
-<ul>
-<li> Programável em SQL, com ferramentas para facilitar a programação (autocompletar palavras, sugestões, etc.)</li>
+Várias ferramentas de Machine learning e outros algoritmos já prontas, além da possibilidade de escrever outras funções.
 
-<li> Visualização simples dos dados, com ferramentas para enviar relatórios e agendar análise de dados.</li>
+Integração com sistemas de outras empresas, clusters e nuvens.
 
-<li> Os dados são analisados em clusters oferecidos pelo software.</li>
-</ul>
+Suporta imagens, vídeos e outros tipos de dados.
 
+## **SAP**
 
-<p></p>
-<h2><strong>Zoho Analytics (pago)</strong></h2>
-<p></p>
+Visualização de dados para uma organização
 
-<p>“O Zoho Analytics (anteriormente, Zoho Reports) é um software de BI e análise de dados que permite que você crie relatórios e painéis de dados atraentes e informativos em minutos.”</p>
+## **Referências**
 
-<p></p>
-<h2><strong>Yellowfinbi (pago)</strong></h2>
-<p></p>
+1.  20 Best Data Analytics Software for 2020  
+    [https://financesonline.com/data-analytics/](https://financesonline.com/data-analytics/)
 
-<p>A strategic, enterprise suite of BI and analytics products that change the way you discover and share insights so you can make the best decisions and act on changes in your data, faster.</p>
+3.  11 Best Big Data Analytics Tools in 2020  
+    [https://www.guru99.com/big-data-analytics-tools.html](https://www.guru99.com/big-data-analytics-tools.html)
 
-<p>Diferenciais: Pode-se incluir inteligência artificial nas análises</p>
-
-<p></p>
-<h2><strong>Domo (pago)</strong></h2>
-<p></p>
-
-<p>Ferramenta para visualização de dados de uma organização.</p>
-
-<p> Pega dados de diversas fontes, Facebook, Google, etc. </p>
-
-<p></p>
-<h2><strong>IBM</strong></h2>
-<p></p>
-
-<ul>
-<li> <strong> IBM Analytics:</strong> Visualização de dados para uma organização </li>
-<li> <strong> IBM Cognos: </strong> Visualização de dados para uma organização </li>
-<li><strong> IBM Watson:</strong> IA que “analisa os dados pra ti” a partir de perguntas em inglês.</li>
-</ul>
-
-
-<p></p>
-<h2><strong>Matlab</strong></h2>
-<p></p>
-
-<p>Várias ferramentas de Machine learning e outros algoritmos já prontas, além da possibilidade de escrever outras funções.</p>
-
-<p>Integração com sistemas de outras empresas, clusters e nuvens.</p>
-
-<p>Suporta imagens, vídeos e outros tipos de dados.</p>
-
-<p></p>
-<h2><strong>SAP </strong></h2>
-<p></p>
-
-<p>Visualização de dados para uma organização</p>
-
-       
-<p></p>
-<h2><strong>Referências </strong></h2>
-<p></p>
-
-<ol>
-  <li> 20 Best Data Analytics Software for 2020 <br>
-<a href="https://financesonline.com/data-analytics/">https://financesonline.com/data-analytics/</a> </li> <br>
-
-<li> 11 Best Big Data Analytics Tools in 2020 <br>
-  <a href="https://www.guru99.com/big-data-analytics-tools.html">https://www.guru99.com/big-data-analytics-tools.html</a> </li><br>
-
-<li> Top 53 Bigdata Platforms and Bigdata Analytics Software <br>
-  <a href="https://www.predictiveanalyticstoday.com/bigdata-platforms-bigdata-analytics-software/">https://www.predictiveanalyticstoday.com/bigdata-platforms-bigdata-analytics-software/</a> </li>  
-</ol>
-
-
+5.  Top 53 Bigdata Platforms and Bigdata Analytics Software  
+    [https://www.predictiveanalyticstoday.com/bigdata-platforms-bigdata-analytics-software/](https://www.predictiveanalyticstoday.com/bigdata-platforms-bigdata-analytics-software/)
