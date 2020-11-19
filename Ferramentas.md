@@ -6,7 +6,7 @@ Ferramentas para Big Data
 Alisson Neimaier e Taiane Schaedler Prass
 </div>
 
-## **Apache Hadoop**
+## Apache Hadoop
 
 ![Hadoop Logo](Ferramentas_files/hadoop-logo.jpg) Haddop é uma plataforma de software em Java para computação distribuída e processamento de grandes massas de dados. O Hadoop não é uma ferramenta única, mas sim uma coleção de subprojetos relacionados para computação distribuída, todos eles hospedados pela *Apache Software Foundation*
 [(http://hadoop.apache.org/)](http://hadoop.apache.org/), sendo que os mais conhecidos são o MapReduce e o sistema de arquivos distribuídos (HDFS).
@@ -36,6 +36,20 @@ Além do MapReduce e do HDFS existem outros subprojetos do Hadoop que oferecem u
     
 Algumas ferramentas complementares são: Sqoop, Oozie, Mahout, Flume, etc. Uma descrição dessas ferramentas pode ser encontrada em [https://rogeraoaraujo.com.br/2020/11/12/big-data-ferramentas-e-tecnologias-parte-2/](https://rogeraoaraujo.com.br/2020/11/12/big-data-ferramentas-e-tecnologias-parte-2/)    
 
+
+## Apache Spark
+
+É um sistema de cluster para processamento de dados em larga escala. É possível fazer análise em bancos de dados “quase” instantaneamente (Stream Processing) ou em dados que já foram coletados a mais tempo (Batch Processing).
+
+A forma como o Spark Streaming funciona é dividindo o streaming em lotes (chamados micro lotes) em um intervalo predefinido ($N$ segundos) e, em seguida, trata cada lote de dados como arquivos *Resilient Distributed Datasets* (RDDs).
+
+Sua base é o Hadoop HDFS, mas pode ser usado com Cassandra, HBase e MongoDB, também com as linguagens R, Python e Scala. 
+
+Sua maior funcionalidade seria substituir o MapReduce, pois é 100x mais rápido em memória e 10x em disco.
+
+É possível desenvolver API’s (Interface de Programação de Aplicativos) em Java, Scala, Python e R.
+
+Integrado ao SQL para manipulação de dados, tem uma biblioteca de algoritmos de machine learning (MLlib) e uma de gráficos (GraphX).
 
 ## **Referências**
 
