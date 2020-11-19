@@ -1,28 +1,4 @@
 
-## **Apache Spark**
-
-É um sistema de cluster para processamento de dados em larga escala. É
-possível fazer análise em bancos de dados “quase” instantaneamente
-(Stream Processing) ou em dados que já foram coletados a mais tempo
-(Batch Processing).
-
-A forma como o Spark Streaming funciona é dividindo o streaming em lotes
-(chamados micro lotes) em um intervalo predefinido (N segundos) e, em
-seguida, trata cada lote de dados como arquivosResilient Distributed
-Datasets (RDDs).
-
-Sua base é o Hadoop HDFS, mas pode ser usado com Cassandra, HBase e
-MongoDB, também com as linguagens R, Python e Scala.
-
-Sua maior funcionalidade seria substituir o MapReduce, pois é 100x mais
-rápido em memória e 10x em disco.
-
-É possível desenvolver API’s (Interface de Programação de Aplicativos)
-em Java, Scala, Python e R.
-
-Integrado ao SQL para manipulação de dados, tem uma biblioteca de
-algoritmos de machine learning (MLlib) e uma de gráficos (GraphX).
-
 ## **Microsoft HDInsight**
 
 É um serviço do Hadoop e Spark na nuvem. Uma plataforma em que é
