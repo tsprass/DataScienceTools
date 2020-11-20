@@ -38,7 +38,7 @@ Algumas ferramentas complementares são: Sqoop, Oozie, Mahout, Flume, etc. Uma d
 
 ## Apache Spark
 
-<img src="Ferramentas_files/apachesparklogo.png" height="100"> É uma ferramenta voltada para o processamento de  grandes conjuntos de dados (larga escala) de forma paralela e distribuída. É possível fazer análise em bancos de dados “quase” instantaneamente (Stream Processing) ou em dados que já foram coletados a mais tempo (Batch Processing).
+<img src="Ferramentas_files/apachesparklogo.png" height="100"> Originalmente, foi desenvolvido no laboratório AMPLab, da Universidade da Califórnia, Berkeley. Mais tarde seu código fonte foi doado para a *Apache Software Foundation* [https://spark.apache.org/](https://spark.apache.org/), que o mantém desde então. É uma ferramenta voltada para o processamento de  grandes conjuntos de dados (larga escala) de forma paralela e distribuída. É possível fazer análise em bancos de dados “quase” instantaneamente (Stream Processing) ou em dados que já foram coletados a mais tempo (Batch Processing).
 
 A forma como o Spark Streaming funciona é dividindo o streaming em lotes (chamados micro lotes) em um intervalo predefinido ($N$ segundos) e, em seguida, trata cada lote de dados como arquivos *Resilient Distributed Datasets* (RDDs). Sua base é o Hadoop HDFS, mas pode ser usado com Cassandra, HBase e MongoDB, também com as linguagens R, Python e Scala. 
 
