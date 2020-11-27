@@ -1,10 +1,4 @@
 
-## **Microsoft HDInsight**
-
-É um serviço do Hadoop e Spark na nuvem. Uma plataforma em que é
-possível <span style="color: #0000ff;">lidar</span> com os dados
-utilizando diversas aplicações de forma integrada.
-
 ## **MongoDB**\*
 
 Banco de dados open source. NoSQL database. Armazena documentos num
