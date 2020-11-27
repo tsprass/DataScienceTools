@@ -59,7 +59,7 @@ Para mais detalhes veja, por exemplo, [https://www.devmedia.com.br/introducao-ao
 
 ## Microsoft Azure HDInsight
 
-<img src="Ferramentas_files/Azure_HDInsight.jpg" height="100"> Azure HDInsight é uma distribuição em nuvem de componentes do Hadoop. Disponibiliza diversas ferramentas para tornar o processamento de grandes volumes de dados mais fácil, rápido e econômico. Permite a utilização de estruturas de código aberto como Hadoop, Spark, Hive, LLAP, Kafka, Storm, R entre outras. 
+<img src="Ferramentas_files/Azure_HDInsight.jpg" height="80"> Azure HDInsight é uma distribuição em nuvem de componentes do Hadoop. Disponibiliza diversas ferramentas para tornar o processamento de grandes volumes de dados mais fácil, rápido e econômico. Permite a utilização de estruturas de código aberto como Hadoop, Spark, Hive, LLAP, Kafka, Storm, R entre outras. 
 
 Nesse link [Azure HDInsight](https://tinyurl.com/y62wufmd) você encontra uma lista das ferramentas/produtos disponibilizadas sem custo.  
 
