@@ -64,6 +64,36 @@ Para mais detalhes veja, por exemplo, [https://www.devmedia.com.br/introducao-ao
 Nesse link você encontra uma lista das ferramentas/produtos disponibilizadas sem custo: [Microsoft Azure](https://tinyurl.com/y62wufmd) 
 
 
+## Outras Ferramentas
+
+  -  **MongoDB:**  é desenvolvido pela MongoDB Inc. e licenciado sob a Server Side Public License (SSPL). O MOngoDB é um banco de dados open source, classificado como NoSQL, orientado a documentos. Armazena documentos num formato parecido com json.  <https://en.wikipedia.org/wiki/MongoDB>
+  
+  - **Plotly:** é uma plataforma que fornece bibliotecas com gráficos dinâmicos e um ambiente clould para compartilhamento. Através de um ambiente studio é possível salvar e editar seus gráficos na nuvem. As biblioteca estão disponíveis em  modo online ou offline. No modo online os gráficos ficarão armazenados na cloud da plataforma e você pode acessar, editar e compartilhar com outros usuários. O plano gratuito oferece recursos limitados de gráficos com permissão publica armazenados. O cadastro pode ser feito em <https://chart-studio.plotly.com/Auth/login/#/>
+  
+  - **Google Analytics:** O Google Analytics é um serviço oferecido de forma gratuita pelo Google. Essa ferramenta exibe estatísticas de visitação de sites.
+  
+
+## Machine Learning Libraries
+
+Spark (MLib): <https://spark.apache.org/docs/latest/ml-guide.html>
+
+Flink (FlinkML): <https://ci.apache.org/projects/flink/flink-docs-release-1.12/>
+
+Samoa: <https://samoa.incubator.apache.org/documentation/Home.html>
+
+
+## Comparações entre Ferramentas
+
+<https://data-flair.training/blogs/hadoop-vs-mongodb/> -\> Comparação MongoDB vs Hadoop
+
+<https://i2.wp.com/opensourceforu.com/wp-content/uploads/2018/03/Table-1-Comparison-of-teh-best-Big-Data-frameworks-2.jpg?ssl=1>
+-\> Tabela comparative dos Frameworks Apache (Hadoop, Spark, etc.)
+
+<https://www.researchgate.net/publication/329239211_Big_Data_Analytics_Technologies_and_Platforms_a_brief_review> -\> Análise tecnologias de big data UFCE
+
+  
+
+
 ## **Referências**
 
 1.  20 Best Data Analytics Software for 2020  
