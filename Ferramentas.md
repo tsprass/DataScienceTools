@@ -82,14 +82,13 @@ Flink (FlinkML): <https://ci.apache.org/projects/flink/flink-docs-release-1.12/>
 Samoa: <https://samoa.incubator.apache.org/documentation/Home.html>
 
 
-## Comparações entre Ferramentas
+## Leituras Indicadas
 
-<https://data-flair.training/blogs/hadoop-vs-mongodb/> -\> Comparação MongoDB vs Hadoop
+Comparação MongoDB vs Hadoop: <https://data-flair.training/blogs/hadoop-vs-mongodb/> 
 
-<https://i2.wp.com/opensourceforu.com/wp-content/uploads/2018/03/Table-1-Comparison-of-teh-best-Big-Data-frameworks-2.jpg?ssl=1>
--\> Tabela comparative dos Frameworks Apache (Hadoop, Spark, etc.)
+Tabela comparative dos Frameworks Apache (Hadoop, Spark, etc.): <https://i2.wp.com/opensourceforu.com/wp-content/uploads/2018/03/Table-1-Comparison-of-teh-best-Big-Data-frameworks-2.jpg?ssl=1>
 
-<https://www.researchgate.net/publication/329239211_Big_Data_Analytics_Technologies_and_Platforms_a_brief_review> -\> Análise tecnologias de big data UFCE
+Big Data Analytics Technologies and Platforms: a brief review: <https://www.researchgate.net/publication/329239211_Big_Data_Analytics_Technologies_and_Platforms_a_brief_review> 
 
   
 
