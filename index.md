@@ -23,9 +23,9 @@ Edital 001/2019 do Programa Institucional de Apoio à Pesquisa de Docentes Recé
 
 ## Alunos envolvidos no Projeto
 
-* Alisson Silva Neimaier - DEST - UFRGS
-* Humberto de Lima - DMPA - UFRGS
-* Amanda Santos - DMPA - UFRGS
+* Alisson Silva Neimaier - DEST - UFRGS (Novembro/2019 - Atual)
+* Humberto de Lima - DMPA - UFRGS (Novembro/2019 a Junho/2020)
+* Amanda Santos - DMPA - UFRGS (Novembro/2019 a Setembro/2020)
 
 
 ## Resumos
