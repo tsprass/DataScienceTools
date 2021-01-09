@@ -86,7 +86,7 @@ Samoa: <https://samoa.incubator.apache.org/documentation/Home.html>
 
 Comparação MongoDB vs Hadoop: <https://data-flair.training/blogs/hadoop-vs-mongodb/> 
 
-Tabela comparative dos Frameworks Apache (Hadoop, Spark, etc.): <https://i2.wp.com/opensourceforu.com/wp-content/uploads/2018/03/Table-1-Comparison-of-teh-best-Big-Data-frameworks-2.jpg?ssl=1>
+Tabela comparativa dos Frameworks Apache (Hadoop, Spark, etc.): <https://i2.wp.com/opensourceforu.com/wp-content/uploads/2018/03/Table-1-Comparison-of-teh-best-Big-Data-frameworks-2.jpg?ssl=1>
 
 Big Data Analytics Technologies and Platforms: a brief review: <https://www.researchgate.net/publication/329239211_Big_Data_Analytics_Technologies_and_Platforms_a_brief_review> 
 
