@@ -72,6 +72,7 @@ Nesse link você encontra uma lista das ferramentas/produtos disponibilizadas se
   
   - **Google Analytics:** O Google Analytics é um serviço oferecido de forma gratuita pelo Google. Essa ferramenta exibe estatísticas de visitação de sites.
   
+  - **Ferramentas (pagas) voltadas para visualização de dados:**  Lumify, Periscope/Sisense, Looker, Zoho Analytics, Yellowfin BI 
 
 ## Machine Learning Libraries
 
@@ -79,7 +80,8 @@ Spark (MLib): <https://spark.apache.org/docs/latest/ml-guide.html>
 
 Flink (FlinkML): <https://ci.apache.org/projects/flink/flink-docs-release-1.12/>
 
-Samoa: <https://samoa.incubator.apache.org/documentation/Home.html>
+Samoa: Conjunto de algoritmos para data mining e machine learning em “tempo real”. É possível desenvolver outros algoritmos. Roda em Apache Storm,
+S4, Samza e Flink. <https://samoa.incubator.apache.org/documentation/Home.html>
 
 
 ## Leituras Indicadas
