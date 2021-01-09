@@ -72,7 +72,7 @@ Nesse link você encontra uma lista das ferramentas/produtos disponibilizadas se
   
   - **Google Analytics:** O Google Analytics é um serviço oferecido de forma gratuita pelo Google. Essa ferramenta exibe estatísticas de visitação de sites.
   
-  - **Ferramentas (pagas) voltadas para visualização de dados:**  Lumify, Periscope/Sisense, Looker, Zoho Analytics, Yellowfin BI 
+  - **Ferramentas (pagas) voltadas para visualização de dados:**  Lumify, Periscope/Sisense, Looker, Zoho Analytics, Yellowfin BI, Domo,  IBM Cognos Analytics.
 
 ## Machine Learning Libraries
 
