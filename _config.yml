@@ -5,4 +5,4 @@ navbar:
     - text: "Home"
       href: index.Rmd
     - text: "About"
-      href: about.Rmd
+      href: index.Rmd
