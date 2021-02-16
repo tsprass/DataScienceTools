@@ -105,3 +105,8 @@ Big Data Analytics Technologies and Platforms: a brief review: <https://www.rese
 
 3.  Top 53 Bigdata Platforms and Bigdata Analytics Software  
     <https://www.predictiveanalyticstoday.com/bigdata-platforms-bigdata-analytics-software/>
+    
+    
+    
+    
+## Voltar para a página principal <https://tsprass.github.io/DataScienceTools/>    
