@@ -31,3 +31,10 @@ Edital 001/2019 do Programa Institucional de Apoio à Pesquisa de Docentes Recé
 ## Resumos
 
 * [Ferramentas para Big Data](https://tsprass.github.io/DataScienceTools/Ferramentas) 
+
+
+## Tutoriais
+
+* [GitHub e RStudio](https://resources.github.com/whitepapers/github-and-rstudio/)
+
+
