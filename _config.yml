@@ -1,8 +1,1 @@
 name: "my-website"
-navbar:
-  title: "My Website"
-  left:
-    - text: "Home"
-      href: index.Rmd
-    - text: "About"
-      href: index.Rmd
