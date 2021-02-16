@@ -2,7 +2,9 @@
 title: "Untitled"
 author: "Taiane S. Prass"
 date: "2/16/2021"
-output: html_document
+output:
+  bookdown::github_document2:
+    html_preview: false
 ---
 
 ```{r setup, include=FALSE}
