@@ -3,4 +3,6 @@ navbar:
   title: "My Website"
   left:
     - text: "Home"
+      href: index.Rmd
     - text: "About"
+      href: about.Rmd
