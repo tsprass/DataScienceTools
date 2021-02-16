@@ -1,7 +1,11 @@
 ---
 title: "Learning Java"
+knit: (function(input_file, encoding){
+  out_dir <- 'docs';
+  rmarkdown::render(input_file,
+ encoding=encoding,
+ output_file=file.path(dirname(input_file), out_dir, 'LearningJava.html'))})
 author: "Taiane S. Prass"
-date: "2/16/2021"
 output: html_document
 ---
 
