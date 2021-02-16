@@ -1,16 +1,3 @@
----
-title: "Untitled"
-author: "Taiane S. Prass"
-date: "2/16/2021"
-output:
-  bookdown::github_document2:
-    html_preview: false
----
-
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-```
-
 ## R Markdown
 
 This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
