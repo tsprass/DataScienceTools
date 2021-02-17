@@ -11,6 +11,8 @@ Taiane S. Prass
 Este é um tutorial de Java voltado para iniciantes. Nele vamos discutir
 conceitos básicos relacionados à programação em Java.
 
+<p></p>
+
 O tutorial é baseado no vídeo [Java Programming All-in-One Tutorial
 Series (6 HOURS!)](<https://www.youtube.com/watch?reload=9&v=r3GGV2TG_vw>)
 
