@@ -270,80 +270,79 @@ public class MeuPrimeiroPrograma {
 }
 ```
 
--   O termo **public** é um modificador de acesso (*access modifier*).
-    Outro modificador desse tipo é **private**. Nesse programa
-    obteríamos um erro trocando o *public* do método *main* por
-    *private* pois todo programa executável de java deve ter um método
-    do tipo *public* denominado *main*. Modificadores de acesso
-    determinam quem pode acessar o método/classe em questão.
+O termo **public** é um modificador de acesso (*access modifier*). Outro
+modificador desse tipo é **private**. Nesse programa obteríamos um erro
+trocando o *public* do método *main* por *private* pois todo programa
+executável de java deve ter um método do tipo *public* denominado
+*main*. Modificadores de acesso determinam quem pode acessar o
+método/classe em questão.
 
--   as chaves funcionam como uma “caixa” que delimita o que faz parte do
-    método/classe em questão (classe ou método). Apenas por convenção
-    (pois ajuda na visulização e entendimento do código) identificamos
-    tudo que está entre chaves.
+As chaves funcionam como uma “caixa” que delimita o que faz parte do
+método/classe em questão (classe ou método). Apenas por convenção (pois
+ajuda na visulização e entendimento do código) identificamos tudo que
+está entre chaves.
 
--   o uso da palavra chave **static** é um pouco mais difícil de
-    explicar. Para entender o que ela faz precisamos ter um pouco mais
-    de conhecimento em programação orientada à objeto (falaremos mais
-    sobre isso na sequência). Vamos então explicar de maneira resumida e
-    informal.
+O uso da palavra chave **static** é um pouco mais difícil de explicar.
+Para entender o que ela faz precisamos ter um pouco mais de conhecimento
+em programação orientada à objeto (falaremos mais sobre isso na
+sequência). Vamos então explicar aqui de maneira resumida e informal.
 
-    Em programação orientada à objetos criamos instâncias de classes.
-    Uma classe funciona como uma “fábrica” de objetos. O que a palavra
-    *static* diz é que não precisamos criar uma instância para usar o
-    método *main* que está dentro da classe *MeuPrimeiroPrograma* que
-    criamos anteriormente.
+Em programação orientada à objetos criamos instâncias de classes. Uma
+classe funciona como uma “fábrica” de objetos. O que a palavra *static*
+diz é que não precisamos criar uma instância para usar o método *main*
+que está dentro da classe *MeuPrimeiroPrograma* que criamos
+anteriormente.
 
-    Poderíamos criar um método diferente, sem o uso de *static*, como no
-    exemplo abaixo,
+Poderíamos criar um método diferente, sem o uso de *static*, como no
+exemplo abaixo,
 
-    ``` js
-     public class MeuPrimeiroPrograma {
+``` js
+ public class MeuPrimeiroPrograma {
+  
+    public static void main(String[] args) { //methods
+        System.out.println("Olá Pessoal!");
+    }
+    
+    public void algoDiferente() { //methods
+        System.out.println("Olá Diferente!");
+    }
+  }
+```
 
-          public static void main(String[] args) { //methods
-              System.out.println("Olá Pessoal!");
-          }
+Nesse caso, se quisermos rodar o método *algoDiferente* ou invocar ele
+precisamos incluir os comandos abaixo
 
-          public void algoDiferente() { //methods
-              System.out.println("Olá Diferente!");
-          }
-      }
-    ```
+``` js
+...
+      var x = new MeuPrimeiroPrograma();
+        x.algoDiferente();
+...     
+```
 
-    Nesse caso, se quisermos rodar o método *algoDiferente* ou invocar
-    ele precisamos incluir os comandos abaixo
+então, quando rodarmos a aplicação, o método será executado, como mostra
+a figura abaixo
 
-    ``` js
-    ...
-          var x = new MeuPrimeiroPrograma();
-              x.algoDiferente();
-    ...       
-    ```
+<div style="float:center; padding:1px">
 
-    então, quando rodarmos a aplicação, o método será executado, como
-    mostra a figura abaixo
+<img src="p8.png" width="700" />
 
-    <div style="float:center; padding:1px">
+</div>
 
-    <img src="p8.png" width="700" />
+Quando usamos *new* e escrevemos o nome da classe, estamos criando um
+objeto. Como o método *main* tem a palavra chave *static*, esse passo de
+criar o objeto não precisa acontecer para ele. Isso é similar ao uso do
+método *println* no sentido que, para utilizá-lo não criamos uma
+instância do *System* usando *new*, dando a ela um nome de variável e
+depois invocando *println*. Ao invés disso, estamos invocando o
+*println* diretamente. Isso é possível devido à palavra chave *static*.
+Veja como ficaria o código e o resultado se tivéssemos usado *static* ao
+definir o método *algoDiferente*:
 
-    </div>
+<div style="float:center; padding:1px">
 
-    Quando usamos *new* e escrevemos o nome da classe, estamos criando
-    um objeto. Como o método *main* tem a palavra chave *static*, esse
-    passo de criar o objeto não precisa acontecer para ele. Isso é
-    similar ao uso do método *println* no sentido que, para utilizá-lo
-    não criamos uma instância do *System* usando *new*, dando a ela um
-    nome de variável e depois invocando *println*. Ao invés disso,
-    estamos invocando o *println* diretamente. Isso é possível devido à
-    palavra chave *static*. Veja como ficaria o código e o resultado se
-    tivéssemos usado *static* ao definir o método *algoDiferente*:
+<img src="p9.png" width="700" />
 
-    <div style="float:center; padding:1px">
-
-    <img src="p9.png" width="700" />
-
-    </div>
+</div>
 
 ## Resumo da Seção - Palavras chave
 
