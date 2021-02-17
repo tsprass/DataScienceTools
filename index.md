@@ -36,5 +36,5 @@ Edital 001/2019 do Programa Institucional de Apoio à Pesquisa de Docentes Recé
 ## Tutoriais
 
 * [GitHub e RStudio](https://resources.github.com/whitepapers/github-and-rstudio/)
-* [Tutorial de Java (para principiantes)](https://tsprass.github.io/DataScienceTools/Java/LearningJava) 
+* [Tutorial de Java (para iniciantes)](https://tsprass.github.io/DataScienceTools/Java/LearningJava) 
 
