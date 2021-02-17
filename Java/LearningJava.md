@@ -151,6 +151,8 @@ que aparece foi gerado automaticamente.
 
 </div>
 
+**Criando o primeiro programa**
+
 Vamos substituir a linha que contém comentários (linha que começa com
 duas barras)
 
@@ -172,3 +174,196 @@ abaixo). O resultado aparecerá no console (parte inferior da janela).
 <img src="p7.png" width="800" />
 
 </div>
+
+## Entendendo o código
+
+A primeira coisa que precisamos saber é que tudo está dentro de uma
+**classe** e cada classe tem um nome. No código criado anteriormente, a
+classe foi denominada *MeuPrimeiroPrograma*.
+
+``` js
+public class MeuPrimeiroPrograma {
+   ...
+}
+```
+
+Dentro das classes temos os **métodos**.Assim como as classes, todos os
+métodos tem um nome. Abaixo o método, cujo nome é *main*, que consta no
+programa que escrevemos.
+
+``` js
+...
+    public static void main(String[] args) {
+  ...
+    }
+...
+```
+
+Dentro dos métodos, excutamos **declarações/instruções** (*statements*).
+No caso do nosso programa, a declaração correponde à linha onde dizemos
+para o programa imprimir a mensagem “Olá Pessoal!”.
+
+``` js
+...
+        System.out.println("Olá Pessoal!");
+...
+```
+
+O termo técnico para o “nome” da classe/método é **identificador**
+(*identifier*). Tudo o que está dentro de uma classe é denominado
+**membro** (*member*), ou seja, o método *main* é um membro da classe
+*MeuPrimeiroPrograma*. Abaixo acrescentamos mais um membro à classe que
+estamos trabalhando:
+
+``` js
+public class MeuPrimeiroPrograma {
+
+    public static void main(String[] args) {
+        System.out.println("Olá Pessoal!");
+    }
+    
+    String x = new String(); 
+
+}
+```
+
+Agora nossa classe é composta de um método (*main*) e de uma *string*
+chamada “x”. Uma *string* é um exemplo de **propriedade** (*property*).
+Métodos geralmente fazem alguma coisa (nesse exmemplo é imprimir no
+console) enquanto que propriedades armazenam algum valor. Por exemplo,
+podemos armazenar o valor “hello” como mostrado abaixo
+
+``` js
+public class MeuPrimeiroPrograma {
+
+    public static void main(String[] args) { //methods
+        System.out.println("Olá Pessoal!");
+    }
+    
+    String x = new String("hello"); //property
+
+}
+```
+
+No código que estamos escrevendo conseguimos visualizar o conceito de
+“aninhamento” (*nesting*). Por exemplo, para a declaração
+
+``` js
+...
+        System.out.println("Olá Pessoal!");
+...
+```
+
+temos uma classe denominada **System**. Acessamos os membros dessa
+classe utilizando o **ponto**. Um dos membros de *System* é chamado
+**out**. Por sua vez, *out* possui um membro denominado **println** que
+é um método.
+
+Vamos focar novamente no código original:
+
+``` js
+public class MeuPrimeiroPrograma {
+
+    public static void main(String[] args) { //methods
+        System.out.println("Olá Pessoal!");
+    }
+}
+```
+
+-   O termo **public** é um modificador de acesso (*access modifier*).
+    Outro modificador desse tipo é **private**. Nesse programa
+    obteríamos um erro trocando o *public* do método *main* por
+    *private* pois todo programa executável de java deve ter um método
+    do tipo *public* denominado *main*. Modificadores de acesso
+    determinam quem pode acessar o método/classe em questão.
+
+-   as chaves funcionam como uma “caixa” que delimita o que faz parte do
+    método/classe em questão (classe ou método). Apenas por convenção
+    (pois ajuda na visulização e entendimento do código) identificamos
+    tudo que está entre chaves.
+
+-   o uso da palavra chave **static** é um pouco mais difícil de
+    explicar. Para entender o que ela faz precisamos ter um pouco mais
+    de conhecimento em programação orientada à objeto (falaremos mais
+    sobre isso na sequência). Vamos então explicar de maneira resumida e
+    informal.
+
+    Em programação orientada à objetos criamos instâncias de classes.
+    Uma classe funciona como uma “fábrica” de objetos. O que a palavra
+    *static* diz é que não precisamos criar uma instância para usar o
+    método *main* que está dentro da classe *MeuPrimeiroPrograma* que
+    criamos anteriormente.
+
+    Poderíamos criar um método diferente, sem o uso de *static*, como no
+    exemplo abaixo,
+
+    ``` js
+     public class MeuPrimeiroPrograma {
+
+          public static void main(String[] args) { //methods
+              System.out.println("Olá Pessoal!");
+          }
+
+          public void algoDiferente() { //methods
+              System.out.println("Olá Diferente!");
+          }
+      }
+    ```
+
+    Nesse caso, se quisermos rodar o método *algoDiferente* ou invocar
+    ele precisamos incluir os comandos abaixo
+
+    ``` js
+    ...
+          var x = new MeuPrimeiroPrograma();
+              x.algoDiferente();
+    ...       
+    ```
+
+    então, quando rodarmos a aplicação, o método será executado, como
+    mostra a figura abaixo
+
+    <div style="float:center; padding:1px">
+
+    <img src="p8.png" width="700" />
+
+    </div>
+
+    Quando usamos *new* e escrevemos o nome da classe, estamos criando
+    um objeto. Como o método *main* tem a palavra chave *static*, esse
+    passo de criar o objeto não precisa acontecer para ele. Isso é
+    similar ao uso do método *println* no sentido que, para utilizá-lo
+    não criamos uma instância do *System* usando *new*, dando a ela um
+    nome de variável e depois invocando *println*. Ao invés disso,
+    estamos invocando o *println* diretamente. Isso é possível devido à
+    palavra chave *static*. Veja como ficaria o código e o resultado se
+    tivéssemos usado *static* ao definir o método *algoDiferente*:
+
+    <div style="float:center; padding:1px">
+
+    <img src="p9.png" width="700" />
+
+    </div>
+
+## Resumo da Seção - Palavras chave
+
+-   duas barras “//” são usadas para criar comentários que são ignorados
+    pelo compilador.
+
+-   uma **classe** contém “tudo” - possui **membros**.
+
+-   uma **declaração** diz ao computador para fazer algo.
+
+-   exemplos de membros são **métodos** (que fazem algo) e
+    **propriedades** (que guardam algo).
+
+-   a função **main** sempre é executada automaticamente quando rodamos
+    o programa. Se não tivermos uma função *main* receberemos uma
+    mensagem de erro.
+
+-   os membros podem receber **modificadores de acesso** (por exemplo,
+    **public**) que definem “quem” pode utilizar eles.
+
+-   **static** indica que não é necessário uma instância da classe.
+
+-   um **objeto** é uma instância de uma classe.
