@@ -1,6 +1,8 @@
-Tutorial de Java
-================
-Taiane S. Prass
+-   [Motivação](#motivação)
+    -   [Arquitetura do Java](#arquitetura-do-java)
+    -   [Qual é a mágica por trás
+        disso?](#qual-é-a-mágica-por-trás-disso)
+-   [Primeiro Programa em Java](#primeiro-programa-em-java)
 
 <div style="float:right; padding:100px">
 
@@ -103,12 +105,12 @@ comigo)
 
 > *The project was not built due to “Failed to init ct.sym for
 > C:\\Users\\…\\jrt-fs.jar” Fix the problem, then try refreshing this
-> project and building it since it may be inconsistent* &gt;
+> project and building it since it may be inconsistent* \>
 
 veja as sugestões nessa página:
 <https://stackoverflow.com/questions/63446925/the-project-was-not-built-due-to-failed-to-init-ct-sym-for-c-program-files-jav>
 
-Se não ocorrer nenhum problema, seguindo os passos das figuras acima,
+Se não ocorrer nenhum problema, seguindo os passos das figuras acima
 você chegará nessa tela:
 
 <div style="float:center; padding:1px">
