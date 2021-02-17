@@ -1,8 +1,6 @@
--   [Motivação](#motivação)
-    -   [Arquitetura do Java](#arquitetura-do-java)
-    -   [Qual é a mágica por trás
-        disso?](#qual-é-a-mágica-por-trás-disso)
--   [Primeiro Programa em Java](#primeiro-programa-em-java)
+Tutorial de Java
+================
+Taiane S. Prass
 
 <div style="float:right; padding:100px">
 
@@ -86,7 +84,9 @@ utilizados são **eclipse** (<https://www.eclipse.org/ide/>) e
 **netbeans** (<https://netbeans.org/>). Para esse tutorial vamos
 utilizar o eclipse.
 
-O próximo passo é criar um novo projeto:
+**Criando o projeto**
+
+Para criar um novo projeto, siga os passos das figuras abaixo:
 
 <div style="float:center; padding:1px">
 
@@ -105,7 +105,7 @@ comigo)
 
 > *The project was not built due to “Failed to init ct.sym for
 > C:\\Users\\…\\jrt-fs.jar” Fix the problem, then try refreshing this
-> project and building it since it may be inconsistent* \>
+> project and building it since it may be inconsistent*
 
 veja as sugestões nessa página:
 <https://stackoverflow.com/questions/63446925/the-project-was-not-built-due-to-failed-to-init-ct-sym-for-c-program-files-jav>
@@ -116,5 +116,59 @@ você chegará nessa tela:
 <div style="float:center; padding:1px">
 
 <img src="p3.png" width="800" />
+
+</div>
+
+**Criando uma classe**
+
+O próximo passo será criar uma nova classe, clicando com o botão direito
+do mouse em cima do projeto e selecionando os menus como na figura
+abaixo:
+
+<div style="float:center; padding:1px">
+
+<img src="p4.png" width="600" />
+
+</div>
+
+A figura abaixo apresenta a janela que aparecerá em seguida. Não esqueça
+de marcar a caixa indicada na figura (*public static void main*) pois
+essa opção indicará onde o aplicativo deve iniciar. Preencha também com
+o nome de sua preferência (neste exemplo, *MeuPrimeiroPrograma*).
+
+<div style="float:center; padding:1px">
+
+<img src="p5.png" width="400" />
+
+</div>
+
+O resultado desse procedimento é apresentado na figura abaixo. O código
+que aparece foi gerado automaticamente.
+
+<div style="float:center; padding:1px">
+
+<img src="p6.png" width="800" />
+
+</div>
+
+Vamos substituir a linha que contém comentários (linha que começa com
+duas barras)
+
+``` js
+// TODO Auto-generated method stub
+```
+
+pelo comando para imprimir a mensagem “Olá Pessoal!”
+
+``` js
+System.out.println("Olá Pessoal!");
+```
+
+Em seguida basta salvar (Ctrl+s) e executar (botão indicado na figura
+abaixo). O resultado aparecerá no console (parte inferior da janela).
+
+<div style="float:center; padding:1px">
+
+<img src="p7.png" width="800" />
 
 </div>
