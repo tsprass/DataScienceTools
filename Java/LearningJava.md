@@ -11,10 +11,11 @@ Taiane S. Prass
 Este é um tutorial de Java voltado para iniciantes. Nele vamos discutir
 conceitos básicos relacionados à programação em Java.
 
-<p></p>
+<p>
+</p>
 
 O tutorial é baseado no vídeo [Java Programming All-in-One Tutorial
-Series (6 HOURS!)](<https://www.youtube.com/watch?reload=9&v=r3GGV2TG_vw>)
+Series (6 HOURS!)](https://www.youtube.com/watch?reload=9&v=r3GGV2TG_vw)
 
 </div>
 
@@ -91,6 +92,12 @@ O próximo passo é criar um novo projeto:
 
 </div>
 
+<div style="float:center; padding:1px">
+
+<img src="p2.png" width="1000" />
+
+</div>
+
 **Observação:** Caso apareça uma mensagem de erro do tipo (aconteceu
 comigo)
 
@@ -100,3 +107,12 @@ comigo)
 
 veja as sugestões nessa página:
 <https://stackoverflow.com/questions/63446925/the-project-was-not-built-due-to-failed-to-init-ct-sym-for-c-program-files-jav>
+
+Se não ocorrer nenhum problema, seguindo os passos das figuras acima,
+você chegará nessa tela:
+
+<div style="float:center; padding:1px">
+
+<img src="p3.png" width="800" />
+
+</div>
