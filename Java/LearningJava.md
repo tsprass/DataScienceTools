@@ -498,7 +498,7 @@ Quando invocamos o método, passamos para ele um argumento.
 -   **argumentos** é o que passamos para um método. (aparecem quando
     invocamos os métodos)
 
--   **parâemetros** são variáveis que armazenam argumentos. (aparecem na
+-   **parâmetros** são variáveis que armazenam argumentos. (aparecem na
     definição dos métodos)
 
 -   a função **main** sempre é executada automaticamente quando rodamos
