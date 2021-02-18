@@ -2,16 +2,6 @@ Tutorial de Java
 ================
 Taiane S. Prass
 
--   [Motivação](#motivação)
-    -   [Arquitetura do Java](#arquitetura-do-java)
-    -   [Qual é a mágica por trás
-        disso?](#qual-é-a-mágica-por-trás-disso)
--   [Primeiro Programa em Java](#primeiro-programa-em-java)
-    -   [Entendendo o código](#entendendo-o-código)
-    -   [Resumo da Seção - Palavras
-        chave](#resumo-da-seção---palavras-chave)
-        
-        
 <div style="float:right; padding:100px">
 
 <p style="float: left;">
@@ -82,7 +72,7 @@ Download:
 
 -   JRE: <https://www.java.com/pt-BR/download/>
 
-# Primeiro Programa em Java
+# Primeiro programa em Java
 
 Faça o download do JDK e instale conforme as instruções.
 
@@ -94,7 +84,7 @@ utilizados são **eclipse** (<https://www.eclipse.org/ide/>) e
 **netbeans** (<https://netbeans.org/>). Para esse tutorial vamos
 utilizar o eclipse.
 
-**Criando o projeto**
+## Criando o projeto
 
 Para criar um novo projeto, siga os passos das figuras abaixo:
 
@@ -129,7 +119,7 @@ você chegará nessa tela:
 
 </div>
 
-**Criando uma classe**
+## Criando uma classe
 
 O próximo passo será criar uma nova classe, clicando com o botão direito
 do mouse em cima do projeto e selecionando os menus como na figura
@@ -161,7 +151,7 @@ que aparece foi gerado automaticamente.
 
 </div>
 
-**Criando o primeiro programa**
+## Finalizando e executando
 
 Vamos substituir a linha que contém comentários (linha que começa com
 duas barras)
@@ -185,7 +175,39 @@ abaixo). O resultado aparecerá no console (parte inferior da janela).
 
 </div>
 
-## Entendendo o código
+Agora que o programa foi criado e compilado, podemos executá-lo direto
+do prompt de comando. Você pode encontrar o diretório onde os arquivos
+estão salvos clicando com o botão direito do mouse em cima de
+MeuPrimeiroPrograma.java que encontra-se em src, (default package), como
+mostra a imagem da esquerda na figura abaixo. No meu caso,
+“MeuPrimeiroPrograma.java” foi salvo em
+“D:\\Dropbox\\Eclipse\\Exemplo\\src”. Na pasta
+“D:\\Dropbox\\Eclipse\\Exemplo\\bin” encontra-se o arquivo compilado
+“MeuPrimeiroPrograma.class”:
+
+<div style="float:center; padding:1px">
+
+<img src="p10.png" width="1000" />
+
+</div>
+
+Para executar o programa direto do console, abra o terminal na pasta
+onde encontra-se o arquivo com extensão “.class” e digite **java**
+seguido do nome do programa, sem a extensão “.class”:
+
+``` cmd
+java MeuPrimeiroPrograma
+```
+
+o resultado é apresentado na figura abaixo
+
+<div style="float:center; padding:1px">
+
+<img src="p11.png" width="500" />
+
+</div>
+
+# Entendendo o código do primeiro programa
 
 A primeira coisa que precisamos saber é que tudo está dentro de uma
 **classe** e cada classe tem um nome. No código criado anteriormente, a
@@ -354,7 +376,98 @@ definir o método *algoDiferente*:
 
 </div>
 
-## Resumo da Seção - Palavras chave
+# Argumentos e Parâmetros
+
+Toda vez que invocamos um método, o que escrevemos entre parênteses são
+**argumentos**. Por exemplo, no programa básico que criamos
+anteriormente, “Olá Pessoal” é um argumento passado para o método
+*println*, equanto que a função *main* espera receber um argumento que
+será uma *array* (matriz/vetor) do tipo *String*:
+
+``` js
+ public class MeuPrimeiroPrograma {
+  
+    public static void main(String[] args) { //methods
+        System.out.println("Olá Pessoal!");
+    }
+  }
+```
+
+Se executarmos o programa acima direto no console passando um argumento
+extra, como por exemplo a *string* “MaisAlgumaCoisa”, o resultado será
+exatamente o mesmo do obtido quando não passamos nenhum argumento:
+
+<div style="float:center; padding:1px">
+
+<img src="p12.png" width="600" />
+
+</div>
+
+Isso ocorre porque estamos passando um argumento para o programa, mas
+esse argumento não está sendo utilizado pelo programa.
+
+A título de ilustração, vamos substituir a declaração anterior linha de
+comando que permite passarmos um argumento extra. Para isso vamos
+acrescentar “+ args\[0\]” ao argumento da função *println*:
+
+``` js
+   public class MeuPrimeiroPrograma {
+    
+        public static void main(String[] args) { //methods
+            System.out.println("Olá Pessoal! " + args[0]);
+        }       
+    }
+```
+
+Depois disso é só salvar o arquivo e executar através da linha de
+comando
+
+<div style="float:center; padding:1px">
+
+<img src="p13.png" width="600" />
+
+</div>
+
+**Observação:** Agora que modificamos o programa, se não passarmos o
+argumento extra na linha de comando, obteremos uma mensagem de erro:
+
+> Exception in thread “main” java.lang.ArrayIndexOutOfBoundsException:
+> Index 0 out of bounds for length 0 at
+> MeuPrimeiroPrograma.main(MeuPrimeiroPrograma.java:5)
+
+Esse é um erro do tipo *run time error*, ou seja, um erro que ocorre na
+hora de executar o programa.
+<p>
+</p>
+
+Quando digitamos “java MeuPrimeiroPrograma”, estamos solicitando que
+seja executado o método *main* que está dentro da classe
+“MeuPrimeiroPrograma”. No nosso caso, a função *main* possui um
+argumento “String\[\] args”. Podemos passar vários argumentos para essa
+função, mas apenas o primeiro será usado (“args\[0\]”), os demais serão
+ignorados. Na primeira versão do programa, todos os argumentos eram
+ignorados pois “args” não era invocado dentro da função *main*.
+
+Parâmetros e argumentos são muito parecidos, mas não são a mesma coisa.
+Com vimos anteriormente, um argumento é algo que passamos para um
+método. Um **parâmetro** é uma variável que vai armazenar algo. Por
+exemplo, no código abaixo, “Olá Pessoal” é um argumento e “args” é o
+parâmetro que vai armazenar o argumento que passarmos para o método
+*main*:
+
+``` js
+   public class MeuPrimeiroPrograma {
+    
+        public static void main(String[] args) { //methods
+            System.out.println("Olá Pessoal!";
+        }       
+    }
+```
+
+Em resumo: quando definimos um método, associamos a ele um parâmetro.
+Quando invocamos o método, passamos para ele um argumento.
+
+# Resumo - Palavras chave
 
 -   duas barras “//” são usadas para criar comentários que são ignorados
     pelo compilador.
@@ -365,6 +478,12 @@ definir o método *algoDiferente*:
 
 -   exemplos de membros são **métodos** (que fazem algo) e
     **propriedades** (que guardam algo).
+
+-   **argumentos** é o que passamos para um método. (aparecem quando
+    invocamos os métodos)
+
+-   **parâemetros** são variáveis que armazenam argumentos. (aparecem na
+    definição dos métodos)
 
 -   a função **main** sempre é executada automaticamente quando rodamos
     o programa. Se não tivermos uma função *main* receberemos uma
