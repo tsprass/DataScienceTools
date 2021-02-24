@@ -14,6 +14,7 @@ Taiane S. Prass
 -   [Entendendo o código do primeiro
     programa](#entendendo-o-código-do-primeiro-programa)
 -   [Argumentos e Parâmetros](#argumentos-e-parâmetros)
+-   [Pacotes](#pacotes)
 -   [Resumo - Palavras chave](#resumo---palavras-chave)
 
 
@@ -483,6 +484,169 @@ parâmetro que vai armazenar o argumento que passarmos para o método
 Em resumo: quando definimos um método, associamos a ele um parâmetro.
 Quando invocamos o método, passamos para ele um argumento.
 
+# Pacotes
+
+Um **espaço de nomes** (*namespace*) é um delimitador abstrato que pode
+conter nomes, termos técnicos, conceitos… Ele fornece um contexto para
+os itens que ele armazena de forma que itens que possuem o mesmo nome
+mas que residem em espaços de nomes diferentes não entrem em conflito.
+
+Um **pacote** (*package*) é um *namespace* usado para organizar um
+conjunto de interfaces e classes relacionadas. Existem duas categorias
+de pacotes em Java:
+
+-   Pacotes internos (*built-in*), da API (*Application Programming
+    Interface*) do Java: representam as tarefas mais comuns associadas
+    com o desenvolvimento de software, como pacotes para criação de
+    interfaces gráficas e acesso a bancos de dados. É possível importar
+    uma classe específica a partir desta biblioteca, ou um pacote
+    completo, contendo todas as classes que pertencem a ele.
+
+-   Pacotes definidos pelo usuário: ficam armazenados em uma espécie de
+    sistema de arquivos do java, como se fossem pastas comuns no
+    computador.
+
+Para ilustrar o uso de um pacote interno, vamos considerar novamente o
+código básico que trabalhomos anteriormente:
+
+``` js
+  public class MeuPrimeiroPrograma {
+   
+       public static void main(String[] args) { //methods
+           System.out.println("Olá Pessoal!");
+       }       
+   }
+```
+
+Para que o programa seja capaz de aceitar *inputs* de usuários é
+necessário utilizar algumas ferramentas específicas. Nesse exemplo vamos
+criar uma variável do tipo *Scanner* denominada “meuScanner”. O formato
+utilizado é o seguinte:
+
+``` js
+// tipo nome = new tipo();
+```
+
+Vale ressaltar que o java faz distinção entre maiúsculas e minúsculas
+então, poderíamos ter chamado o *Scanner* que criamos de “scanner”.
+
+``` js
+ public class MeuPrimeiroPrograma {
+  
+      public static void main(String[] args) { //methods
+          System.out.println("Olá Pessoal!");
+          
+          Scanner meuScanner = new Scanner(System.in)
+      }       
+  }
+```
+
+Digitando o código acima percebemos que as palavras *Scanner* ficam
+sublinhadas em vermelho. Isso ocorro porque o *Scanner* não existe,
+precisamos importar ele de algum lugar para que o código funcione.
+Colocando o mouse em cima de uma delas aparece uma caixa de sugestões,
+como mostra a figura abaixo.
+
+<div style="float:center; padding:1px">
+
+<img src="p14.png" width="1000" />
+
+</div>
+
+O que precisamos para o nosso exemplo é o *Scanner* que está no pacote
+“java.util”. Clicando no link que aparece a linha de comando para
+importar a ferramenta desejada é inlcuida automativamente no código:
+
+``` js
+import java.util.Scanner;
+
+public class MeuPrimeiroPrograma {
+  
+      public static void main(String[] args) { //methods
+          System.out.println("Olá Pessoal!");
+          
+          Scanner meuScanner = new Scanner(System.in);
+      }       
+  }
+```
+
+De maneira alternativa, poderíamos escrever
+
+``` js
+ public class MeuPrimeiroPrograma {
+   
+       public static void main(String[] args) { //methods
+           System.out.println("Olá Pessoal!");
+           
+           java.util.Scanner meuScanner = new java.util.Scanner(System.in);
+       }       
+   }
+```
+
+mas isso deixa o código mais carregado. Nesse caso, “java.util.Scanner”
+indica que o objeto “Scanner” encontra-se no pacote “java.util”.
+
+Agora vamos alterar a mensagem a ser impressa na tela para “Qual o seu
+nome?”. Em seguida vamos criar uma *string* denominada “nome” e vamos
+associar um valor do objeto “meuScanner” que permite avançar uma linha e
+retornar o valor que é digitado no console.
+
+``` js
+  import java.util.Scanner;
+  
+  public class MeuPrimeiroPrograma {
+  
+    public static void main(String[] args) { //methods
+        System.out.println("Qual o seu nome?");  //perguntando o nome
+  
+        // type indentifier = new type();
+        Scanner meuScanner = new Scanner(System.in);   // criando um nomo objeto do tipo Scanner
+        String nome = meuScanner.nextLine();  // usando o Scanner para obter uma nova linha
+        
+        System.out.println("Olá " + nome);  // output
+    }       
+  }
+```
+
+<div style="float:center; padding:1px">
+
+<img src="p15.png" width="1000" />
+
+</div>
+
+Ao executar esse programa diretamente no console, não precisamos passar
+um argumento, basta o comando para executar:
+
+``` cmd
+D:\Dropbox\Eclipse\Exemplo\bin>java MeuPrimeiroPrograma
+```
+
+o programa vai imprimir a mensagem inicial e esperar pelo input do
+usuário
+
+``` cmd
+D:\Dropbox\Eclipse\Exemplo\bin>java MeuPrimeiroPrograma
+Qual o seu nome?
+```
+
+o usuário deve digitar uma string qualquer:
+
+``` cmd
+D:\Dropbox\Eclipse\Exemplo\bin>java MeuPrimeiroPrograma
+Qual o seu nome?
+Taiane
+```
+
+ao pressionar enter o programa imprime a mensagem final, conforme
+solicitado:
+
+``` cmd
+D:\Dropbox\Eclipse\Exemplo\bin>java MeuPrimeiroPrograma
+Qual o seu nome?
+Taiane
+Olá Taiane
+```
+
 # Resumo - Palavras chave
 
 -   duas barras “//” são usadas para criar comentários que são ignorados
@@ -511,3 +675,7 @@ Quando invocamos o método, passamos para ele um argumento.
 -   **static** indica que não é necessário uma instância da classe.
 
 -   um **objeto** é uma instância de uma classe.
+
+
+
+### Voltar para a página principal <https://tsprass.github.io/DataScienceTools/>    
