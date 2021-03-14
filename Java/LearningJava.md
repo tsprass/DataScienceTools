@@ -15,8 +15,8 @@ Taiane S. Prass
     programa](#entendendo-o-código-do-primeiro-programa)
 -   [Argumentos e Parâmetros](#argumentos-e-parâmetros)
 -   [Pacotes](#pacotes)
+-   [Tipos de variáveis](#tipos-de-variáveis)
 -   [Resumo - Palavras chave](#resumo---palavras-chave)
-
 
 
 <div style="float:right; padding:100px">
@@ -177,7 +177,8 @@ duas barras)
 // TODO Auto-generated method stub
 ```
 
-pelo comando para imprimir a mensagem “Olá Pessoal!”
+pelo comando para imprimir a mensagem “Olá Pessoal!”. Observe que uma
+linha de comando sempre termina com ponto e vírgula.
 
 ``` js
 System.out.println("Olá Pessoal!");
@@ -425,7 +426,10 @@ esse argumento não está sendo utilizado pelo programa.
 
 A título de ilustração, vamos substituir a declaração anterior linha de
 comando que permite passarmos um argumento extra. Para isso vamos
-acrescentar “+ args\[0\]” ao argumento da função *println*:
+acrescentar “+ args\[0\]” ao argumento da função *println*. O sinal de
+mais é um **operador**. Ele atua em “operandos” para produzir um valor.
+Nesse caso, o sinal de mais vai concatenar as duas frases passadas para
+o programa.
 
 ``` js
    public class MeuPrimeiroPrograma {
@@ -476,7 +480,7 @@ parâmetro que vai armazenar o argumento que passarmos para o método
    public class MeuPrimeiroPrograma {
     
         public static void main(String[] args) { //methods
-            System.out.println("Olá Pessoal!";
+            System.out.println("Olá Pessoal!");
         }       
     }
 ```
@@ -647,6 +651,67 @@ Taiane
 Olá Taiane
 ```
 
+# Tipos de variáveis
+
+Em java **data type** significa tipo de dado, isto é, como o computador
+interpreta a informação (dado) em questão. Por exemplo, 5 é considerado
+um número, enquanto que “5” é um caractere (string). O tipo da variável
+determina o tipo de operações que podem ser realizadas com a variável em
+questão.
+
+Existem diferentes categorias de *data types*:
+
+-   **objetos** (*objects*): é uma instância de uma classe (classe é um
+    tipo de dado).
+
+-   **tipos primitivos** (*primitive types*): são os tipos de dados mais
+    básicos disponíveis na linguagem Java. Existem oito tipos
+    primitivos: **boolean**, **byte**, **char**, **short**, **int**,
+    **long**, **float** e **double**. Esses tipos de dados vêm com
+    várias operações predefinidas e não é possível definir uma nova
+    operação para eles. Os primitivos podem ser divididos em três
+    categorias:
+
+    -   **Primitivos numéricos**: short, int, long, float e double.
+        Esses tipos de dados primitivos contêm apenas dados numéricos.
+        As operações associadas a tais tipos de dados são aquelas de
+        aritmética simples (adição, subtração, etc.) ou de comparações
+        (é maior que, é igual a, etc.)
+
+    -   **Primitivos textuais**: byte e char. Esses tipos de dados
+        primitivos contêm caracteres (que podem ser alfabetos Unicode ou
+        até números). As operações associadas a esses tipos são as de
+        manipulação textual (comparar duas palavras, juntar caracteres
+        para formar palavras, etc.). No entanto, byte e char também
+        podem suportar operações aritméticas.
+
+    -   **Primitivos booleanos e nulos**: boolean e null.
+
+No exemplo abaixo *teste* é um objeto do tipo *string* que recebe o
+texto “Isso é um caractere”, *x* é um primitivo do tipo *int* que está
+recebendo o valor 5 e *y* é um objeto do tipo *Integer* (existe uma
+classe com o nome *Integer*) que recebe o valor 5. Na maioria das
+situações utilizamos os valores primitivos, mas existem situações onde
+pode ser mais conveniente utilizar a classe *Integer*
+
+``` js
+  public class MeuPrimeiroPrograma {
+  
+      public static void main(String[] args) { //methods
+          
+          String teste = new String("Isso é um caractere");
+          
+          int x = 5; //primitive
+          
+          Integer y = 5; //object
+          
+          System.out.println(teste);
+          System.out.println(x);
+          System.out.println(y);
+      }       
+  }
+```
+
 # Resumo - Palavras chave
 
 -   duas barras “//” são usadas para criar comentários que são ignorados
@@ -665,6 +730,8 @@ Olá Taiane
 -   **parâmetros** são variáveis que armazenam argumentos. (aparecem na
     definição dos métodos)
 
+-   um **operador** atua em operandos par produzir um valor.
+
 -   a função **main** sempre é executada automaticamente quando rodamos
     o programa. Se não tivermos uma função *main* receberemos uma
     mensagem de erro.
@@ -675,7 +742,5 @@ Olá Taiane
 -   **static** indica que não é necessário uma instância da classe.
 
 -   um **objeto** é uma instância de uma classe.
-
-
 
 ### Voltar para a página principal <https://tsprass.github.io/DataScienceTools/>    
