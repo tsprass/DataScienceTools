@@ -19,6 +19,7 @@ Edital 001/2019 do Programa Institucional de Apoio à Pesquisa de Docentes Recé
 
 * Guilherme Pumi - DEST/PPGEst - IME - UFRGS
 * Rosangela de F. P. Marquesone - Laboratório de Arquitetura e Redes de Computadores da USP (LARC - USP)
+* ‪Cleiton Guollo Taufemback - IME - UFRGS
 
 
 ## Alunos envolvidos no Projeto
