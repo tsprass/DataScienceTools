@@ -25,8 +25,9 @@ Edital 001/2019 do Programa Institucional de Apoio à Pesquisa de Docentes Recé
 ## Alunos envolvidos no Projeto
 
 * Alisson Silva Neimaier - DEST - UFRGS (Novembro/2019 - Atual)
-* Humberto de Lima - DMPA - UFRGS (Novembro/2019 a Junho/2020)
 * Amanda Santos - DMPA - UFRGS (Novembro/2019 a Setembro/2020)
+* Humberto de Lima - DMPA - UFRGS (Novembro/2019 a Junho/2020)
+* Luiz Almir Zanella de Paula - DEST - UFRGS (Abril/2021 - Atual)
 
 
 ## Resumos
@@ -38,4 +39,5 @@ Edital 001/2019 do Programa Institucional de Apoio à Pesquisa de Docentes Recé
 
 * [GitHub e RStudio](https://resources.github.com/whitepapers/github-and-rstudio/)
 * [Tutorial de Java (para iniciantes) - EM CONSTRUÇÃO](https://tsprass.github.io/DataScienceTools/Java/LearningJava) 
+* [Tutorial: MongoDB e R (para iniciantes) - EM CONSTRUÇÃO](https://tsprass.github.io/DataScienceTools/MongoDB/Mongo_R.html) 
 
