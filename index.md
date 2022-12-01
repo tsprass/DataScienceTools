@@ -17,17 +17,16 @@ Edital 001/2019 do Programa Institucional de Apoio à Pesquisa de Docentes Recé
 
 ## Colaboradores:
 
-* Guilherme Pumi - DEST/PPGEst - IME - UFRGS
-* Rosangela de F. P. Marquesone - Laboratório de Arquitetura e Redes de Computadores da USP (LARC - USP)
-* ‪Cleiton Guollo Taufemback - IME - UFRGS
-
+* Guilherme Pumi - PPGEst/UFRGS
+* ‪Cleiton Guollo Taufemback - PPGEst/UFRGS
 
 ## Alunos envolvidos no Projeto
 
-* Alisson Silva Neimaier - DEST - UFRGS (Novembro/2019 - Atual)
-* Amanda Santos - DMPA - UFRGS (Novembro/2019 a Setembro/2020)
-* Humberto de Lima - DMPA - UFRGS (Novembro/2019 a Junho/2020)
-* Luiz Almir Zanella de Paula - DEST - UFRGS (Abril/2021 - Atual)
+* Alisson Silva Neimaier - DEST/PPGEst/UFRGS (Novembro/2019 - Atual)
+* Amanda Santos - DMPA/UFRGS (Novembro/2019 a Setembro/2020)
+* Humberto de Lima - DMPA/UFRGS (Novembro/2019 a Junho/2020)
+* Luiz Almir Zanella de Paula - DEST/UFRGS (Abril/2021 - Agosto/2022)
+* Raíssa Magnan Scorsatto - DEST/UFRGS (Agosto/2022 - Atual)
 
 
 ## Resumos
