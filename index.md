@@ -32,7 +32,7 @@ Edital 001/2019 do Programa Institucional de Apoio à Pesquisa de Docentes Recé
 ## Resumos
 
 * [Ferramentas para Big Data](https://tsprass.github.io/DataScienceTools/Ferramentas) 
-
+* [Como Funcionam Bancos de Dados NoSQL](https://tsprass.github.io/DataScienceTools/NoSQL/NoSQL) 
 
 ## Tutoriais
 
