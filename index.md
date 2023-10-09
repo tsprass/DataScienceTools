@@ -26,7 +26,8 @@ Edital 001/2019 do Programa Institucional de Apoio à Pesquisa de Docentes Recé
 * Amanda Santos - DMPA/UFRGS (Novembro/2019 a Setembro/2020)
 * Humberto de Lima - DMPA/UFRGS (Novembro/2019 a Junho/2020)
 * Luiz Almir Zanella de Paula - DEST/UFRGS (Abril/2021 - Agosto/2022)
-* Raíssa Magnan Scorsatto - DEST/UFRGS (Agosto/2022 - Atual)
+* Raíssa Magnan Scorsatto - DEST/UFRGS (Agosto/2022 - Setembro/2023)
+* Gabriel Kazanowski Netto - DEST/UFRGS (Setembro/2023 - Atual)
 
 
 ## Resumos
