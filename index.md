@@ -38,8 +38,10 @@ Edital 001/2019 do Programa Institucional de Apoio à Pesquisa de Docentes Recé
 
 ## Tutoriais
 
-* [GitHub e RStudio](https://resources.github.com/whitepapers/github-and-rstudio/)
+* [GitHub e RStudio (link externo)](https://resources.github.com/whitepapers/github-and-rstudio/)
 * [Tutorial de Java (para iniciantes)](https://tsprass.github.io/DataScienceTools/Java/LearningJava) 
 * [Tutorial: MongoDB e R (para iniciantes)](https://tsprass.github.io/DataScienceTools/MongoDB/MongoDB_R)
+* Tutoriais: Análise de sons usando o R
+  - [Working with audio in R using av](https://ropensci.org/blog/2020/02/03/av-audio/)
 
 
