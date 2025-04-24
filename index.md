@@ -15,7 +15,7 @@ Além dos já citados acima, outros programas e linguagens de programação volt
 
 Edital 001/2019 do Programa Institucional de Apoio à Pesquisa de Docentes Recém-Contratados pela UFRGS.
 
-## Colaboradores:
+## Colaboradores
 
 * Guilherme Pumi - PPGEst/UFRGS
 * ‪Cleiton Guollo Taufemback - PPGEst/UFRGS
@@ -33,11 +33,13 @@ Edital 001/2019 do Programa Institucional de Apoio à Pesquisa de Docentes Recé
 ## Resumos
 
 * [Ferramentas para Big Data](https://tsprass.github.io/DataScienceTools/Ferramentas) 
-* [Como Funcionam Bancos de Dados NoSQL](https://tsprass.github.io/DataScienceTools/NoSQL/NoSQL) 
+* [Como Funcionam Bancos de Dados NoSQL](https://tsprass.github.io/DataScienceTools/NoSQL/NoSQL)
+* Processamento e análise de arquivos de sons (em breve!)
 
 ## Tutoriais
 
 * [GitHub e RStudio](https://resources.github.com/whitepapers/github-and-rstudio/)
 * [Tutorial de Java (para iniciantes)](https://tsprass.github.io/DataScienceTools/Java/LearningJava) 
-* [Tutorial: MongoDB e R (para iniciantes)](https://tsprass.github.io/DataScienceTools/MongoDB/MongoDB_R) 
+* [Tutorial: MongoDB e R (para iniciantes)](https://tsprass.github.io/DataScienceTools/MongoDB/MongoDB_R)
+
 
